@@ -9,6 +9,7 @@ and offers a *simple* and *intuitive* API. It is actually quite fun! And a sourc
 Now, let's step into a far more serious business and try to typeset some interesting math.
 Inlined, it will look like :math:`\sin(\theta)^2 + \cos(\theta)^2 = 1`, which is not that bad. On the
 other hand, one may also have it displayed by its own as in
+
 .. math::
 
    \nabla \times \mathbf{B} = \mu_0 \mathbf{J}, \quad \partial_t \mathbf{B} = \nabla \times \mathbf{E},
