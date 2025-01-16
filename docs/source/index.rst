@@ -16,6 +16,16 @@ other hand, one may also have it displayed by its own as in
 
    \nabla p = \mathbf{J} \times \mathbf{B}, \nabla \cdot \mathbf{B} = 0, \frac{d}{dt} \rho p^\gamma = 0
 
+Now, let's play a bit with domains, beginning with the standard one. Assume we are dealing with a command-line application configured by options.
+
+.. option:: -elapsed
+
+   Prints the elapsed time to stdout.
+
+.. option:: -qu=..., -qv=..., -qw=...
+
+   Initial position in the coordinate system and units as defined by the respective `field_box_t` object.
+
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
