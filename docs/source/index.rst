@@ -26,6 +26,16 @@ Now, let's play a bit with domains, beginning with the standard one. Assume we a
 
    Initial position in the coordinate system and units as defined by the respective `field_box_t` object.
 
+And what if one sticks to a markdown kind of formatting options lists? The output would be something like the following.
+
++ `-elapsed` Prints the elapsed time to stdout.
++ `-energy=..., -pitch=...`
+   Initial kinetic energy (measured in eV) and pitch (ie., the ratio :math:`v_\parallel/v` of the
+   parallel to the total velocity).
++ `-qu=..., -qv=..., -qw=...`
+
+   Initial position in the coordinate system and units as defined by the respective `field_box_t` object.
+
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
